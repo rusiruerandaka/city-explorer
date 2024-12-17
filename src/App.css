@@ -1,0 +1,91 @@
+html, body{
+    height: 100%;
+    
+}
+
+body {
+    
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #e6eaec;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+h3{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+button {
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    font-weight: 500;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #29b929;
+}
+
+button:focus{
+    outline: none;
+}
+
+.list-group-item {
+    cursor: pointer;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    border-bottom: 1px solid #f4f4f4;
+    transition: background-color 0.3s ease,transform 0.3s ease;
+}
+
+.list-group-item:hover {
+    background-color: #9385db;
+    transform: scale(1.05);
+}
+
+.list-group-item:last-child {
+    background-color: aquamarine;
+    border-bottom: none;
+}
+
+.list-group-item.active{
+    background-color: #3498db;
+    color: #fff;
+}
+
+input.form-control, button.btn {
+    max-width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+}
